@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="demo_plant_order_view_form" model="ir.ui.view">
+        <field name="name">demo.plant_order.view.form</field>
+        <field name="model">demo.plant_order</field>
+        <field name="arch" type="xml">
+            <form string="Plant Order">
+
+            </form>
+        </field>
+    </record>
+
+    <record id="demo_plant_order_view_tree" model="ir.ui.view">
+        <field name="name">demo.plant_order.view.tree</field>
+        <field name="model">demo.plant_order</field>
+        <field name="arch" type="xml">
+            <tree>
+
+            </tree>
+        </field>
+    </record>
+
+    <record id="demo_plant_order_action" model="ir.actions.act_window">
+        <field name="name">Plant Orders</field>
+        <field name="res_model">demo.plant_order</field>
+        <field name="view_mode">list,form</field>
+    </record>
+</odoo>
